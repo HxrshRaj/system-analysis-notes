@@ -7,6 +7,18 @@ Many transactional applications operate in environments with unstable or inconsi
 - Users often retry actions when feedback is delayed or unclear.
 - Network failures can occur after a request is sent but before a response is received.
 - Strict online-only validation can block user progress entirely during connectivity issues.
+- ## Simplified Flow (Offline-First)
+
+User Action
+   |
+Local Storage (Immediate)
+   |
+Background Sync
+   |
+Server Confirmation
+   |
+UI Feedback Update
+
 
 ## Approaches Considered
 ### 1. Strict Online Validation
