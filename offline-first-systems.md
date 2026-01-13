@@ -51,6 +51,12 @@ For user-facing transactional systems, offline-first approaches provide a better
 
 ## Limitations
 This analysis does not account for regulatory or security constraints that may restrict offline storage in certain financial systems.
+## Decision Summary
+
+If the goal is to maximize user trust under uncertain network conditions,
+an offline-first approach with clear feedback is preferable over strict
+online validation, despite added implementation complexity.
+
 ## Related Notes
 - [Payment Failure Analysis](payment-failure-analysis.md)
 - [Performance vs Scalability](performance-vs-scalability.md)
