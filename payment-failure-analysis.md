@@ -30,3 +30,9 @@ Failure handling should prioritize clarity and trust over immediate success sign
 ## Open Questions
 - How much delay are users willing to tolerate?
 - What level of technical detail should be exposed to users?
+ ## Decision Summary
+
+If the goal is to maximize user trust under uncertain network conditions,
+an offline-first approach with clear feedback is preferable over strict
+online validation, despite added implementation complexity.
+
