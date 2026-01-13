@@ -20,3 +20,13 @@ Each document follows a simple structure:
 - Limitations
 
 These notes are based on practical experience building and analyzing software systems and are written to improve decision-making clarity.
+## Why This Repository Exists
+
+These notes were written to develop clarity in reasoning around real-world software systems where ideal conditions rarely exist.
+
+Rather than focusing on implementation details, the emphasis is on:
+- understanding constraints,
+- evaluating trade-offs,
+- and forming defensible design conclusions.
+
+This repository reflects how I approach ambiguous problems: break them down, reason systematically, and document decisions clearly.
