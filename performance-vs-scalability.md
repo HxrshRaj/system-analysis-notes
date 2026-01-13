@@ -36,3 +36,9 @@ Scalable systems favor incremental strategies that prioritize responsiveness and
 
 ## Limitations
 This analysis focuses on client-side considerations and does not explore backend optimization techniques.
+## Decision Summary
+
+If the goal is to maximize user trust under uncertain network conditions,
+an offline-first approach with clear feedback is preferable over strict
+online validation, despite added implementation complexity.
+
