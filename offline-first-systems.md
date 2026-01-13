@@ -39,3 +39,7 @@ For user-facing transactional systems, offline-first approaches provide a better
 
 ## Limitations
 This analysis does not account for regulatory or security constraints that may restrict offline storage in certain financial systems.
+## Related Notes
+- [Payment Failure Analysis](payment-failure-analysis.md)
+- [Performance vs Scalability](performance-vs-scalability.md)
+
